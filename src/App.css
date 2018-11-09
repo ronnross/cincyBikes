@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -29,4 +29,18 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+:root {
+  --primary: #00a4d8;
 }
+
+.App-header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.App-header > ul {
+  list-style-type: none;
+}
+
